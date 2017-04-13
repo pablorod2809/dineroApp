@@ -1,0 +1,22 @@
+<ion-view title="HOME" hide-nav-bar="true" id="page1" class="back-blue">
+  <ion-content padding="true" class=" manual-remove-top-padding" scroll="false">
+  <form style="height: 100%;">
+   <div style="display: table; width: 100%; height: 100%;">
+     <div style="display: table-cell; vertical-align: middle;">
+      <h1 id="hOME-heading1" style="color:#FFFFFF;font-weight:600;text-align:center;">{{formData.welcome}}</h1>
+      <h1 id="hOME-heading1" style="color:#FFFFFF;font-weight:600;text-align:center;" class="uppercase">{{formData.user}}</h1>
+      <div class="spacer" style="width: 300px; height: 20px;"></div>
+        <a ng-click="close()" id="cOMPRA-button2" style="font-weight:600;border-radius:8px 8px 8px 8px; position: absolute;right: 5px;top: 5px;min-width: 0;min-height:0; background-color: rgba(90,90,90,0.5);" class="button button-assertive button-large icon ion-android-close"></a>      
+      <div id="hOME-container2" class="height: 50: bkWhite" style="">
+        <h1 id="hOME-heading14" style="color:#000000;font-weight:600;text-align:left;display: inline-table;padding-left: 10px;" class="bkWhite">{{formData.symbol}}</h1>
+        <input type="number" min="1" max="99999" ng-model="formData.price" class="uppercase" style="font-size: 50px;font-weight: bold;text-align: right;display: inline-table; height:auto; width:58%; padding-bottom:5px; padding-top:5px;" focus-me></input>
+        <a ng-click="disableService()" id="hOME-button1" style="font-weight:600;border-radius:8px 8px 8px 8px;display: inline-table;float:right;font-size: 36px;margin-top: 10px;" class="button button-light button-large icon-center ion-android-microphone .bigBtn-orange "></a>
+      </div>
+      <h1 id="hOME-heading5" style="color:#000000;"></h1>
+      <a ng-click="confirm()" id="hOME-button2" style="font-size: 36px; font-weight:600;border-radius:8px 8px 8px 8px; padding-top: 10px; padding-bottom:10px;" class="button button-block button-positive button-large icon-center back-green">{{formData.buttonLbl}}</a>
+      <div class="spacer" style="width: 300px; height: 24px;"></div>
+     </div>
+    </div>
+  </form>
+  </ion-content>
+</ion-view>

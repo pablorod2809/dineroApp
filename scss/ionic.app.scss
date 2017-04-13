@@ -1,0 +1,66 @@
+$energized: #FFAD00;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.bkWhite {
+	background: #FFF;
+	font-size: 56px;
+	border-radius: 8px;
+}
+
+div.background {
+	border: 2px solid black;
+}
+
+div.transbox {
+	margin: 5px;
+	background-color: #000;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	/* For IE8 and earlier */}
+div.transbox p {
+	margin: 8px;
+}
+
+.charBig {
+	font-size: 36px;
+}
+
+.bigBtn {
+	font-size: 26px;
+	float: right;
+}
+
+.bigBtn-orange {
+	font-size: 26px;
+	background-color: rgb(254,121,1);
+}
+
+.imgs {
+	opacity: 0.8;
+	filter: alpha(opacity=60);
+}
+
+.faltan {
+	background-color: #E6EB4E;
+}
+
+.btnSalir {
+	/*position: fixed;
+	top: 10px;
+	right: 10px;
+	*/
+	    z-index: 999;
+	background-color: red;
+	width: 40px;
+	height: 60px;
+	padding: 0;
+	border-radius: 8px;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.cruz {
+	padding-top: 10px !important;
+}
+

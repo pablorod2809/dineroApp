@@ -1,0 +1,26 @@
+<ion-view title="COMPRA" hide-nav-bar="true" id="page2" ng-style="styleBackground">
+  <!-- El estilo está dentro del controlador.-->
+  <ion-content padding="true" class=" manual-remove-top-padding" scroll="false">
+     <div style="display: table; width: 100%; height: 100%;">
+     <div style="display: table-cell; vertical-align: middle;">
+        <div id="cOMPRA-container3">
+          <div id="cOMPRA-container11" class="background: #000;">
+            <h1 id="cOMPRA-heading10" style="color:#FFFFFF;font-weight:600;text-align:center;">{{formData.title}}</h1>
+            <div class="spacer" style="width: 300px; height: 4px;"></div>
+          </div>
+        </div>
+
+        <a ng-click="close()" id="cOMPRA-button2" style="font-weight:600;border-radius:8px 8px 8px 8px; position: absolute;right: 5px;top: 5px;min-width: 0;min-height:0; background-color: rgba(90,90,90,0.5);" class="button button-assertive button-large icon ion-android-close"></a>
+
+        <div id="cOMPRA-container12" class="charBig">
+          <h1 id="cOMPRA-heading13" style="color:#070707;font-weight:600;text-align:center;" class="bkWhite">{{formData.symbol}} {{formData.total}}</h1>
+          <a ng-click="getPhotoNew()" id="cOMPRA-button11" style="font-weight:600;border-radius:8px 8px 8px 8px; width: 100%; display: block; margin-bottom:20px;" class="button button-positive button-large bigBtn" ng-style="styleButton" >{{formData.buttonLbl}}</a>
+          <div class="spacer" style="width: 300px; height: 20px;"></div>
+          <img src="img/HQFX51jSSuGJX1zKRLPv_leerbillete.jpg" style="display: block; width: 95%; height: auto; margin-left: auto; margin-right: auto;">
+        </div>
+       
+
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

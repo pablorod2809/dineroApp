@@ -1,0 +1,18 @@
+<ion-view title="singUp" hide-nav-bar="true" id="sINGUP" class="back-blue">
+  <ion-content padding="true" class=" manual-remove-top-padding" scroll="false">
+  <form>
+      <div class="spacer" style="width: 300px; height: 120px;"></div>
+      <h1 id="hOME-heading1" style="color:#FFFFFF;font-weight:600;text-align:center;">{{messages.welcome}}</h1>
+      <h2 id="hOME-heading1" style="color:#FFFFFF;font-weight:600;text-align:center;">{{messages.title}}</h2>
+      <div class="spacer" style="width: 300px; height: 20px;"></div>
+      <div id="hOME-container2">
+        <label class="item item-input" style="color:#000000; font-weight:600; height:60px;">
+          <input type="text" ng-model="formData.name" class="uppercase" style="font-size:40px; font-weight:bold; text-align:center; height:auto;" placeholder="{{user.name}}" focus-me></input>
+        </label>
+      </div>
+      <h1 id="hOME-heading5" style="color:#000000;"></h1>
+      <a ng-click="start()" id="hOME-button1" style="font-weight:600;border-radius:8px 8px 8px 8px;" class="button button-positive button-large button-block bigBtn-orange back-green">{{messages.singUp}}</a>
+      <div class="spacer" style="width: 300px; height: 24px;"></div>
+   </form>   
+  </ion-content>
+</ion-view>
