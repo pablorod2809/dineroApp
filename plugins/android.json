@@ -1,0 +1,46 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-tts": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.dineroapp334939"
+        }
+    }
+}
